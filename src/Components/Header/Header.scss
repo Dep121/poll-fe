@@ -26,5 +26,11 @@
         display: flex;
         min-width: 20%;
         justify-content: space-around;
+        
+        .user-details {
+            display: flex;
+            flex-direction: column;
+            @include v.fontStyle(12px, 500);
+        }
     }
 }
